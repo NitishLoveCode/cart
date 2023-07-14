@@ -1,0 +1,42 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    height: 8vh;
+}
+nav .logo{
+    font-size: 24px;
+    cursor: pointer;
+}
+nav .menu{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+.cart_icon{
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+/* -----------shopping items style----- */
+.shopping_items{
+    margin-top: 2px;
+    margin-right: 3rem;
+    border-radius: 1rem;
+    background-color: rgb(225, 200, 248);
+    float: right;
+    width: 30vw;
+    height: 80vh;
+    border: 1px solid gray;
+    position: relative;
+}
+.hide{
+    display: none;
+}
